@@ -1,0 +1,11 @@
+#Objects: 1
+
+ID: BULLET_1
+Shader: BASIC
+Model: BULLET
+Textures: 1
+TextureId: BULLET
+CubeTextures: 0
+Position: 0.0, 0.0, 0.0
+Rotation: 5.0, 0.0, 0.0
+Scale: 0.005, 0.005, 0.005

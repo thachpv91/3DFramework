@@ -1,0 +1,145 @@
+#SHADERS: 8
+ID: BASIC
+VS SOURCE: Shaders/Basic.vs
+FS SOURCE: Shaders/Basic.fs
+STATES: 2
+STATE: DEPTH_TEST
+STATE: ALPHA
+ID: MUTITEXTURE
+VS SOURCE: Shaders/Basic.vs
+FS SOURCE: Shaders/MultiTexture.fs
+STATES: 2
+STATE: DEPTH_TEST
+STATE: CULLING
+ID: CUBEMAP
+VS SOURCE: Shaders/Basic.vs
+FS SOURCE: Shaders/CubeMap.fs
+STATES: 1
+STATE: DEPTH_TEST
+ID: REFLECTION
+VS SOURCE: Shaders/Basic.vs
+FS SOURCE: Shaders/Reflection.fs
+STATES: 1
+STATE: DEPTH_TEST
+ID: FIRE
+VS SOURCE: Shaders/Basic.vs
+FS SOURCE: Shaders/UVDisplacement.fs
+STATES: 2
+STATE: DEPTH_TEST
+STATE: ALPHA
+ID: LIGHT
+VS SOURCE: Shaders/Basic.vs
+FS SOURCE: Shaders/Light.fs
+STATES: 1
+STATE: DEPTH_TEST
+ID: NORMALMAP
+VS SOURCE: Shaders/Basic.vs
+FS SOURCE: Shaders/NormalMap.fs
+STATES: 1
+STATE: DEPTH_TEST
+ID: BASIC2D
+VS SOURCE: Shaders/Basic2D.vs
+FS SOURCE: Shaders/Basic2D.fs
+STATES: 0
+
+#MODELS: 9
+ID: CUBE
+SOURCE: Models/cube.nfg
+ID: BILA
+SOURCE: Models/Bila.nfg
+ID: FIRE
+SOURCE: Models/fire.nfg
+ID: MARSGLOBE
+SOURCE: Models/Calimero.mdl
+ID: SPACESHIP
+SOURCE: Models/A-Wing.mdl
+ID: EGG
+SOURCE: Models/Egg.mdl
+ID: MISSILE
+SOURCE: Models/missile.mdl
+ID: CHICKEN
+SOURCE: Models/chicken.mdl
+ID: BULLET
+SOURCE: Models/Bullet.mdl
+
+#2D TEXTURES: 12
+ID: FIRE3
+SOURCE: Textures/fire3.tga
+TILING: REPEAT
+ID: DISPLACEMENT_MAP
+SOURCE: Textures/DisplacementMap.tga
+TILING: REPEAT
+ID: FIRE_MASK
+SOURCE: Textures/fire_mask.tga
+TILING: REPEAT
+ID: MARSGLOBE
+SOURCE: Textures/Calimero.mtl
+TILING: REPEAT
+ID: SPACESHIP
+SOURCE: Textures/A-Wing.mtl
+TILING: REPEAT
+ID: EGG
+SOURCE: Textures/Egg.mtl
+TILING: REPEAT
+ID: MISSILE
+SOURCE: Textures/missile.mtl
+TILING: REPEAT
+ID: CHICKEN
+SOURCE: Textures/chicken.mtl
+TILING: REPEAT
+ID: BULLET
+SOURCE: Textures/Bullet.mtl
+TILING: REPEAT
+ID: SPRITESHEET_BUTTON
+SOURCE: Textures2D/sprite1.tga
+TILING: REPEAT
+ID: SPRITESHEET_CHIKENDANCE
+SOURCE: Textures2D/bird.tga
+TILING: REPEAT
+
+#CUBE TEXTURES: 3
+ID: SKYBOX_01
+TEXTURES: 1
+SOURCE: Textures/envMap.tga
+TILING: CLAMP
+ID: SKYBOX_02
+TEXTURES: 6
+SOURCE: Textures/skybox/right.tga
+SOURCE: Textures/skybox/left.tga
+SOURCE: Textures/skybox/top.tga
+SOURCE: Textures/skybox/bottom.tga
+SOURCE: Textures/skybox/front.tga
+SOURCE: Textures/skybox/back.tga
+TILING: CLAMP
+ID: SKYBOX_03
+TEXTURES: 6
+SOURCE: Textures/skyrender/right.tga
+SOURCE: Textures/skyrender/left.tga
+SOURCE: Textures/skyrender/top.tga
+SOURCE: Textures/skyrender/bottom.tga
+SOURCE: Textures/skyrender/front.tga
+SOURCE: Textures/skyrender/back.tga
+TILING: CLAMP
+
+#Sprite: 27
+TEXTURES 2
+
+TEXTURE ID SPRITESHEET_BUTTON
+SPRITES 5
+TYPE USYN
+ID 0 
+X Y Width Height  2 2 32 32
+ID 1
+X Y Width Height 2 36 32 32
+ID 2
+X Y Width Height 2 70 32 32
+ID 3
+X Y Width Height 36 2 32 32
+ID 4
+X Y Width Height 36 36 32 32
+
+TEXTURE ID SPRITESHEET_CHIKENDANCE
+SPRITES 22
+TYPE SYN
+IDS 5 -> 26
+WidthHeight 240 314

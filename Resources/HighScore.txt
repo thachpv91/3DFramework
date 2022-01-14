@@ -1,0 +1,12 @@
+
+#HighScore 5
+ID 0
+Score 50006
+ID 1
+Score 50005
+ID 2
+Score 50004
+ID 3
+Score 50003
+ID 4
+Score 50002

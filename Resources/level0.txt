@@ -1,0 +1,31 @@
+#Objects: 0
+
+#Camera
+SPEED: 0.5
+FOV: 1.57
+NEAR: 0.1
+FAR: 2000.0
+Position: 0.0, 0.0, 0.0
+Rotation: 0.0, 0, 0.0
+Scale: 5.0, 5.0, 5.0
+
+#2D Objects 2
+Shader: BASIC2D
+
+ID ChikenDance
+TYPE ANIMATION
+SPRITES 22
+SPRITE 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26
+SPEED 10.0
+STATES 1
+STATE 1
+DxDyWidthHeightSprite 200 200 300 500 5
+
+ID GameButton
+TYPE NONE
+STATES 2
+STATE 1
+DxDyWidthHeightSprite 1 2 50 49 2
+STATE 2
+DxDyWidthHeightSprite 51 2 52 48 2
+

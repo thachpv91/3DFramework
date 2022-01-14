@@ -1,0 +1,19 @@
+C:\Users\Phat\Desktop\3DFramework\AndroidPorting\gen\com\example\androidporting\R.java \
+ : C:\Users\Phat\Desktop\3DFramework\AndroidPorting\res\drawable-hdpi\ic_launcher.png \
+C:\Users\Phat\Desktop\3DFramework\AndroidPorting\res\drawable-mdpi\ic_launcher.png \
+C:\Users\Phat\Desktop\3DFramework\AndroidPorting\res\drawable-xhdpi\ic_launcher.png \
+C:\Users\Phat\Desktop\3DFramework\AndroidPorting\res\drawable-xxhdpi\ic_launcher.png \
+C:\Users\Phat\Desktop\3DFramework\AndroidPorting\res\raw\ms_battle.mp3 \
+C:\Users\Phat\Desktop\3DFramework\AndroidPorting\res\raw\ms_gameover.mp3 \
+C:\Users\Phat\Desktop\3DFramework\AndroidPorting\res\raw\ms_menu.mp3 \
+C:\Users\Phat\Desktop\3DFramework\AndroidPorting\res\raw\sd_cannonfire.mp3 \
+C:\Users\Phat\Desktop\3DFramework\AndroidPorting\res\raw\sd_cannonturn.mp3 \
+C:\Users\Phat\Desktop\3DFramework\AndroidPorting\res\raw\sd_warning.mp3 \
+C:\Users\Phat\Desktop\3DFramework\AndroidPorting\res\values\dimens.xml \
+C:\Users\Phat\Desktop\3DFramework\AndroidPorting\res\values\strings.xml \
+C:\Users\Phat\Desktop\3DFramework\AndroidPorting\res\values\styles.xml \
+C:\Users\Phat\Desktop\3DFramework\AndroidPorting\bin\res\drawable-hdpi\ic_launcher.png \
+C:\Users\Phat\Desktop\3DFramework\AndroidPorting\bin\res\drawable-mdpi\ic_launcher.png \
+C:\Users\Phat\Desktop\3DFramework\AndroidPorting\bin\res\drawable-xhdpi\ic_launcher.png \
+C:\Users\Phat\Desktop\3DFramework\AndroidPorting\bin\res\drawable-xxhdpi\ic_launcher.png \
+C:\Users\Phat\Desktop\3DFramework\AndroidPorting\bin\AndroidManifest.xml \

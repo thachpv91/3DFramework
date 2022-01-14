@@ -1,0 +1,11 @@
+#ScoreType 3
+
+ID SmallChicken
+Score 25
+
+ID LargeChicken
+Score 50
+
+
+ID ThighChicken
+Score 10
